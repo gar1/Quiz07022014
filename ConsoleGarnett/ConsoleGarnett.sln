@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGarnett", "ConsoleGarnett\ConsoleGarnett.csproj", "{01A73F32-6A05-45BD-B5ED-3419E92B16CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGarnett2", "ConsoleGarnett2\ConsoleGarnett2.csproj", "{64E08D56-9EAC-431C-838C-0A64AD3AE910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication3", "ConsoleApplication3\ConsoleApplication3.csproj", "{613FC94B-66EA-42D7-B5D4-FF1B9447BC66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01A73F32-6A05-45BD-B5ED-3419E92B16CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01A73F32-6A05-45BD-B5ED-3419E92B16CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01A73F32-6A05-45BD-B5ED-3419E92B16CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01A73F32-6A05-45BD-B5ED-3419E92B16CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E08D56-9EAC-431C-838C-0A64AD3AE910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E08D56-9EAC-431C-838C-0A64AD3AE910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E08D56-9EAC-431C-838C-0A64AD3AE910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E08D56-9EAC-431C-838C-0A64AD3AE910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613FC94B-66EA-42D7-B5D4-FF1B9447BC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613FC94B-66EA-42D7-B5D4-FF1B9447BC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613FC94B-66EA-42D7-B5D4-FF1B9447BC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613FC94B-66EA-42D7-B5D4-FF1B9447BC66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
