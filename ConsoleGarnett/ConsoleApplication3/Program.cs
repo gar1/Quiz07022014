@@ -8,12 +8,39 @@ namespace ConsoleApplication3
 {
     class Program
     {
+//--------------------------------------------------------------------|
+// I went home and worked on quiz problem #3.  Now I have it working. | 
+//--------------------------------------------------------------------|
         static void Main(string[] args)
         {
-             for (int n=1; n <= 100; n++)
-                Console.WriteLine(n);
+            string remainder;
+            int number = 0;
 
-             Console.ReadLine();
+            for (int n = 1; n <= 100; n++)
+            {
+                if ((n % 3 == 0) & (n % 5 == 0))
+                {
+                    remainder = "FizzBuzz";
+                    Console.WriteLine(remainder);
+                }
+                else if (n % 3 == 0)
+                {
+                    remainder = "Fizz";
+                    Console.WriteLine(remainder);
+                }
+                else if (n % 5 == 0)
+                {
+                    remainder = "Buzz";
+                    Console.WriteLine(remainder);
+                }
+                else
+                {
+                    number = n;
+                    Console.WriteLine(number);
+                }
+            }
+
+            Console.ReadLine();
         }
     }
 }

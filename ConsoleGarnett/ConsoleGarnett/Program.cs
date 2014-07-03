@@ -8,6 +8,9 @@ namespace ConsoleGarnett
 {
     class Program
     {
+//--------------------------------------------------------------------|
+// I went home and worked on quiz problem #1.  Now I have it working. | 
+//--------------------------------------------------------------------|
         static void Main(string[] args)
         {
             
@@ -16,15 +19,19 @@ namespace ConsoleGarnett
             int smallest;
             
             Console.WriteLine("Enter a number: ");
-            num1 = Console.ReadLine(num1);
+            num1 = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter another number: ");
-            num2 = Console.ReadLine(num2);
+            num2 = int.Parse(Console.ReadLine());
+ 
+            smallest = FindSmallestInteger(num1, num2);
 
-            Console.WriteLine("Smallest number is: " + smallest) = FindSmallestInteger(int num1, int num2);
+            Console.WriteLine("Smallest number is: " + smallest);
+
+            Console.ReadLine();
         }
 
-        public int FindSmallestInteger(int num1, int num2)
+        public static int FindSmallestInteger(int num1, int num2)
         {
 
 
