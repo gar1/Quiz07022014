@@ -4,10 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//--------------------------------------------------------------------------
-// With a little help from a class mate, I was able to get this one working.
-//--------------------------------------------------------------------------
-
 namespace ConsoleGarnett2
 {
     class Program

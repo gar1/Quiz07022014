@@ -8,9 +8,6 @@ namespace ConsoleGarnett
 {
     class Program
     {
-//--------------------------------------------------------------------|
-// I went home and worked on quiz problem #1.  Now I have it working. | 
-//--------------------------------------------------------------------|
         static void Main(string[] args)
         {
             

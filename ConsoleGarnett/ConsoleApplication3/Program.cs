@@ -8,9 +8,6 @@ namespace ConsoleApplication3
 {
     class Program
     {
-//--------------------------------------------------------------------|
-// I went home and worked on quiz problem #3.  Now I have it working. | 
-//--------------------------------------------------------------------|
         static void Main(string[] args)
         {
             string remainder;
